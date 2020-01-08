@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav {
+    width: 80%;
+    background-color: cadetblue;
+    margin: auto;
+    display: flex;
+}
+
+.nav ul li {
+    list-style: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+
+@keyframes mover {
+    0% {
+        transform: translate(100%);
+    }
+}
